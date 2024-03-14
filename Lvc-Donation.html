@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"> -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/lvcDonationCSS.css" />
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <script src="js/appDonation.js" defer></script>
+
+
+  <title>LVC Donation Page</title>
+
+</head>
+
+<body>
+  <!-- TOP NAV -->
+  <div class="top-nav" id="home">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <p> <i class='bx bxs-envelope'></i><a href="mailto:lvcchurch20@gmail.com"
+              class="top-link">lvcchurch20@gmail.com</a></p>
+          <p><i class='bx bxs-phone-call'></i><a href="tel:(239) 692-1322" class="top-link">(239) 692-1322</a></p>
+        </div>
+        <div class="col-auto social-icons">
+          <a href="https://www.facebook.com/Lvcchurch" target="_blank"><i class='bx bxl-facebook'></i></a>
+          <!-- <a href="#"><i class='bx bxl-cashapp'></i></a>
+                <a href="#"><i class='bx bxl-Zelle'></i></a> -->
+          <a href="https://www.youtube.com/@lvcpentecostalworshipcente7904/featured" target="_blank"><i
+              class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LVC Pentecostal <span class="dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#portfolio">Ministries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="./Lvc-Donation.html" >Donation</a> -->
+            <a class="nav-link" href="./Lvc-Donation.html">Donation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#belief">Our Belief</a>
+          </li>
+        </ul>
+        <a href="#contact" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          class="btn btn-brand ms-lg-3">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Optional customer Sign up , form send email-->
+  <div id="customerInfo"> 
+    <div class="col-auto">
+      <h1>Sign up for Updates</h1>
+      <label class="" for="autoSizingInput">Full Name</label>
+      <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe" />
+    </div>
+    <p class="dis fw-bold mb-3">Email address</p>
+     <input type="number" name="PhoneNumber" id="PhoneNumber">
+     
+    <div class="col-12">
+      <button type="submit" class="btn btn-brand">Donate Now</button>
+    </div>
+  </div>
+
+
+
+  <form id="paymentForm">
+    <h2>Payment Form</h2>
+    <input type="button" value="Credit Card" id="creditCard_Btn" href="#creditCardSection" />
+    <input type="button" value="Paypal" id="paypal_Btn" href="paypalSection" />
+    <input type="button" value="Zelle" id="zelle_Btn" href="ZelleSection" />
+    <input type="button" value="Cashapp" id="cashApp_Btn" href="cashAppSection" />
+    <input type="button" value="Apple Pay"id="applePay_Btn" href="applePaySection" /> 
+
+  </form>
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
