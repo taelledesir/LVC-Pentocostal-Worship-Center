@@ -6,8 +6,8 @@ let creditCardBtn = document.getElementById('creditCard_Btn');
 creditCardBtn.addEventListener("click", function(){
     console.log("I'm working");
 
-  // fetch('/create-checkout-session', {
-    fetch('/LVC-Donation', {
+  fetch('/create-checkout-session', {
+    //fetch('/LVC-Donation', {
     method: 'POST',
     headers:{
         'content-Type': 'application/json'
